@@ -22,7 +22,6 @@ from Components.config import (
 )
 from twisted.internet import reactor
 
-from six import ensure_binary
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -62,6 +61,12 @@ config.plugins.SPDyn.ipversion = ConfigSelection(
         ("46", _("IPv4 + IPv6")),
     ],
 )
+
+
+def ensure_binary(s):
+	if isinstance(s, str):
+		return s.encode("utf-8")
+	return s
 
 
 class SPDynScreenMain(ConfigListScreen, Screen):
