@@ -23,9 +23,9 @@ from Components.config import (
 from twisted.internet import reactor
 
 from six import ensure_binary
-from six.moves.urllib.error import HTTPError, URLError
-from six.moves.urllib.parse import urlencode
-from six.moves.urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
 
 
 global sessions
