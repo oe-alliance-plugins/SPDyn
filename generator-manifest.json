@@ -1,0 +1,19 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "a client for www.spdyn.eu",
+  "description_recipe": "a client for www.spdyn.eu",
+  "history_source_dir": "spdyn",
+  "internal_package_name": "enigma2-plugin-extensions-spdyn",
+  "module_dir_name": "SPDyn",
+  "output_subdir": "spdyn",
+  "package_name": "enigma2-plugin-extensions-spdyn",
+  "plugin_src_rel": "spdyn",
+  "python_package": "SPDyn",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "SPDyn",
+  "rrecommends": "",
+  "rreplaces": "",
+  "selected_from_plugin_list": true
+}
