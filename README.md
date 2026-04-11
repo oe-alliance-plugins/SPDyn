@@ -1,35 +1,35 @@
 
 
-# <p align="center">DynDNS Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/DynDNS.svg)</p>
+# <p align="center">SPDyn Plugin for Enigma2 (E²) ![GitHub repo size](https://img.shields.io/github/repo-size/oe-alliance-plugins/SPDyn.svg)</p>
 
 **a client for www.spdyn.eu**
 
 
 ## Github status
-[![Build](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/buildbot.yml)
-[![Lint Status](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/pylint.yml)
-[![Ruff Status](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/ruff.yml)
-[![Build Status](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/compile.yml)
-[![AUTOTAG](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/DynDNS/actions/workflows/autotag.yml)
+[![Build](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/buildbot.yml/badge.svg)](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/buildbot.yml)
+[![Lint Status](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/pylint.yml/badge.svg)](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/pylint.yml)
+[![Ruff Status](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/ruff.yml/badge.svg)](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/ruff.yml)
+[![Build Status](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/compile.yml/badge.svg)](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/compile.yml)
+[![AUTOTAG](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/autotag.yml/badge.svg)](https://github.com/oe-alliance-plugins/SPDyn/actions/workflows/autotag.yml)
 
 
-[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/DynDNS?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/DynDNS/tags)
-[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/DynDNS?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/DynDNS/releases/latest)
-[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/DynDNS)](https://github.com/oe-alliance-plugins/DynDNS)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/DynDNS.svg?label=commits)](https://github.com/oe-alliance-plugins/DynDNS/commits)
-[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/DynDNS.svg?label=commits)](https://github.com/oe-alliance-plugins/DynDNS/commits)
+[![Plugin Version](https://img.shields.io/github/v/tag/oe-alliance-plugins/SPDyn?label=Latest%20Version&color=darkviolet)](https://github.com/oe-alliance-plugins/SPDyn/tags)
+[![Latest Release](https://img.shields.io/github/release-date/oe-alliance-plugins/SPDyn?label=From&color=darkviolet)](https://github.com/oe-alliance-plugins/SPDyn/releases/latest)
+[![Github last commit](https://img.shields.io/github/last-commit/oe-alliance-plugins/SPDyn)](https://github.com/oe-alliance-plugins/SPDyn)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/oe-alliance-plugins/SPDyn.svg?label=commits)](https://github.com/oe-alliance-plugins/SPDyn/commits)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/m/oe-alliance-plugins/SPDyn.svg?label=commits)](https://github.com/oe-alliance-plugins/SPDyn/commits)
 
 ## SonarCloud status
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_DynDNS&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=bugs)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=oe-alliance-plugins_SPDyn&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
 
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_DynDNS)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=oe-alliance-plugins_SPDyn)
 
 ---
 
@@ -45,7 +45,7 @@ This plugin is released under GPLv3. See [LICENSE](https://www.gnu.org/licenses/
 
 ### 🤝 Contributing & Contact
 
-DynDNS is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means DynDNS will always need the contributions of users like you. How can you get involved?
+SPDyn is created by users for users and we welcome every contribution. There are no highly paid developers. There are only users who have seen a problem and done their best to fix it. This means SPDyn will always need the contributions of users like you. How can you get involved?
 
 For questions or feedback, feel free and please open an issue or contribute with a Pull Request!
 
